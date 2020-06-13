@@ -12,14 +12,6 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Parcelable;
-import androidx.annotation.ColorInt;
-import androidx.annotation.ColorRes;
-import androidx.annotation.DrawableRes;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import androidx.core.content.ContextCompat;
-import androidx.core.view.ViewCompat;
-import androidx.interpolator.view.animation.LinearOutSlowInInterpolator;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -38,8 +30,17 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.annotation.ColorInt;
+import androidx.annotation.ColorRes;
+import androidx.annotation.DrawableRes;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.content.ContextCompat;
+import androidx.core.view.ViewCompat;
+import androidx.interpolator.view.animation.LinearOutSlowInInterpolator;
+
 import com.aurelhubert.ahbottomnavigation.notification.AHNotification;
 import com.aurelhubert.ahbottomnavigation.notification.AHNotificationHelper;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -717,7 +718,7 @@ public class AHBottomNavigation extends FrameLayout {
 						public void onAnimationRepeat(Animator animation) {
 						}
 					});
-					circleRevealAnim.start();
+					//circleRevealAnim.start();
 				} else if (colored) {
 					AHHelper.updateViewBackgroundColor(this, currentColor,
 							items.get(itemIndex).getColor(context));
