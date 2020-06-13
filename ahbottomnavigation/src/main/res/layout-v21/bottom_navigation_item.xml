@@ -20,6 +20,7 @@
         android:gravity="center"/>
 
     <TextView
+        android:fontFamily="@font/roboto_medium"
         android:id="@+id/bottom_navigation_item_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
