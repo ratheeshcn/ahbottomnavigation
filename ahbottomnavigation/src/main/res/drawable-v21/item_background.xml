@@ -10,5 +10,4 @@
             <item android:drawable="@android:color/transparent"/>
         </selector>
     </item>
-    <item android:drawable="?attr/selectableItemBackgroundBorderless"/>
 </layer-list>
