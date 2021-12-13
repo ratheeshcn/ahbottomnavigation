@@ -1116,9 +1116,11 @@ public class AHBottomNavigation extends FrameLayout {
 	 * @param accentColor The new accent color
 	 */
 	public void setAccentColor(int accentColor) {
-		this.titleColorActive = accentColor;
 		this.itemActiveColor = accentColor;
 		createItems();
+	}
+	public void setActiveTitleColor(int accentColor) {
+		this.titleColorActive = accentColor;
 	}
 
 	/**
