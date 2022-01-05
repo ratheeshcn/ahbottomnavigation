@@ -28,7 +28,7 @@
         android:gravity="center"
         android:lines="1"
         android:textColor="@color/colorBottomNavigationInactive"
-        android:textSize="13sp"
+        android:textSize="12sp"
         tools:text="Label One" />
 
     <TextView
