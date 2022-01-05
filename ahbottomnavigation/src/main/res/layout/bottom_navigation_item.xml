@@ -29,9 +29,10 @@
         android:layout_marginTop="@dimen/bottom_navigation_margin_top_inactive"
         android:gravity="center"
         android:lines="1"
+        android:textStyle="bold"
         android:textColor="@color/colorBottomNavigationInactive"
         android:textSize="@dimen/bottom_navigation_text_size_inactive"
-        tools:text="Label One"/>
+        tools:text="New order"/>
 
     <TextView
         android:id="@+id/bottom_navigation_notification"
