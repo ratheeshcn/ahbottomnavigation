@@ -17,7 +17,7 @@
         android:gravity="center" />
 
     <TextView
-        android:fontFamily="@font/montserrat_medium"
+        style="@style/TitleFontStyle"
         android:id="@+id/bottom_navigation_small_item_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
