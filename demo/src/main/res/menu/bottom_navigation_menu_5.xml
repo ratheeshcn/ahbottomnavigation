@@ -5,7 +5,7 @@
         android:icon="@drawable/ic_apps_black_24dp" />
 
     <item
-        android:title="@string/menu_2"
+        android:title="NOTIFICATIONS"
         android:icon="@drawable/ic_maps_local_bar" />
 
     <item

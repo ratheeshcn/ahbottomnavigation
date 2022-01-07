@@ -407,6 +407,7 @@ public class AHBottomNavigation extends FrameLayout {
 			FrameLayout container = (FrameLayout) view.findViewById(R.id.bottom_navigation_container);
 			ImageView icon = (ImageView) view.findViewById(R.id.bottom_navigation_item_icon);
 			TextView title = (TextView) view.findViewById(R.id.bottom_navigation_item_title);
+
 			TextView notification = (TextView) view.findViewById(R.id.bottom_navigation_notification);
 
 			icon.setImageDrawable(item.getDrawable(context));
