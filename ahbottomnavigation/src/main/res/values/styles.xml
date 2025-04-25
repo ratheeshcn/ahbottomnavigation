@@ -2,8 +2,7 @@
 <resources>
 
     <style name="TitleFontStyle">
-        <item name="android:fontFamily">@font/montserrat_medium</item>
-        <item name="android:fontWeight">700</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
     </style>
 
 </resources>
